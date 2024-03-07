@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* media query for mobile */
+
+@media(min-width:320px){
+    .caramount-con{
+        max-width: 90%;
+        margin: auto;
+    }
+    .caramount-col{
+        width: 100%;
+        padding: 4px 10px 23px 0;
+       }
+       .caramountlist ul{
+        display: none;
+        margin: 24px 0;
+    }
+}
+
+/* media query for tap */
+
+@media(min-width:720px){
+    .caramount-con{
+        max-width: 90%;
+        margin: auto;
+    }
+    .caramount-col{
+        width: 20%;
+        padding: 4px 10px 23px 0;
+       }
+       .caramountlist ul{
+        display: flex;
+        margin: 24px 0;
+    }
+}
+
+/* media query for mobile */
+
+@media(min-width:1000px){
+    .caramount-con{
+        max-width:1008px;
+        margin: auto;
+    }
+    .caramount-col{
+        width: 20%;
+        padding: 4px 10px 23px 0;
+       }
+       .caramountlist ul{
+        display: flex;
+        margin: 24px 0;
+    }
+}
+
+
+
+.caramount-row {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid  #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 20px;
+    margin:15px 0 29px 0;
+    border-right: 1px solid #e1e1e1;
+}
+
+.caramount-card{
+    border: 1px solid grey;
+    padding: 12px 14px;
+    border-radius: 9999px;
+    background-color: white;
+}
+
+.caramount-card p{
+    text-decoration: none;
+    color: #b5b5b5;   
+    font-size: 14px;
+    text-align: center;
+}
+.caramount-col :hover p{
+    color: #00afa0;
+    font-weight: 700;
+    cursor: pointer;
+}
+.caramount-col:hover .caramount-card{
+    border: 1px solid #00afa0;
+}
+.caramountlist ul li {
+    list-style-type: none;
+}
+.caramountlist ul li a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 20px 0 0;
+
+}

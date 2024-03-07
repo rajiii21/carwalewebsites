@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* media query for mobile */
+
+@media(min-width:320px) {
+    .brand-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 12px 0;
+
+    }
+
+    .brand-col {
+        width: 50%;
+        border-radius: 5px;
+    }
+}
+
+
+
+/* media query for tablet */
+
+@media(min-width:720px) {
+    
+    .brand-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 12px 0;
+
+    }
+    .brand-col {
+        width: 25%;
+        border-radius: 5px;
+    }
+}
+
+
+
+/* media query for latob */
+
+@media(min-width:1000px) {
+    .brand-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 12px 0;
+
+    }
+
+    .brand-col {
+        width: 16.66%;
+        border-radius: 5px;
+    }
+}
+
+.brand-sec {
+    margin: 30px;
+}
+
+.brand-con {
+    max-width: 1008px;
+    margin: auto;
+}
+
+.brand-card {
+    border: 1px solid #e1e1e1;
+    height: 100%;
+    width: 100%;
+    padding: 6px 3px;
+    text-align: center;
+
+}
+
+.brand-title h3 {
+    font-size: 14px;
+    color: #484848;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+}
+
+.brand-img .brandimg {
+    display: block;
+    max-width: 88px;
+    height: 100%;
+    fill: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    cursor: pointer;
+}
+

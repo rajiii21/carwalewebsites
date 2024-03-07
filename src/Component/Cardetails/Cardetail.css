@@ -1,0 +1,1249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* start media query for mobile */
+
+@media(min-width:320px) {
+
+    .cardetail-con {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    /* cars heading details style */
+
+    .addimg1 {
+        margin: 83px 8px 10px;
+    }
+    .addimg2 img {
+        height: auto;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .addimg3 img{
+        width: 100%;
+    }
+    .carrating {
+        display: flex;
+    }
+    /* .carrating p {
+        margin-top: 7px;
+        margin-right: 7px;
+    } */
+    .cardetail-sec h1 {
+        font-weight: 700;
+        font-size: 20px;
+        color: #484848;
+    }
+
+    /* car detail image and price detail */
+
+    .cardetail-col {
+        width: 100%;
+    }
+
+    .cardetail-col1 {
+        width: 100%;
+        padding: 3px;
+    }
+
+    .cardetail-row1 {
+        border: 1px solid #e1e1e1;
+        margin: 30px 0 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cardetail-prices h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #484848;
+    }
+
+    .cardetail-sec a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #0288d1;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 9px;
+    }
+
+    .off-btn span {
+        background-color: #e53012;
+        color: #fff;
+        padding: 10px 66px;
+        margin: 14px;
+        font-weight: 700;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .off-btn {
+        margin: 22px 0 24px;
+    }
+
+    /* second row */
+
+    .cardetail-row2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5px;
+    }
+
+    .cardetails-col1 {
+        width: 100%;
+    }
+
+    .cardetails-col2 {
+        width: 100%;
+    }
+
+    /* car specification section */
+
+    .speciality {
+        border: 1px solid #e1e1e1;
+        padding: 18px 38px 18px 9px;
+        background-color: #f7f6f6;
+        width: 50%;
+        line-height: 1.7;
+        padding: 9px;
+    }
+
+    /* car summary section */
+
+    .car-summary div {
+        border: 1px solid #e1e1e1;
+        height: 143px;
+        padding: 3px;
+        line-height: 1.7;
+        border-radius: 5px;
+    }
+
+    /* car variants section */
+
+    .price-ul li {
+        padding: 12px 7px;
+    }
+
+    .variant-head3 {
+        display: none;
+    }
+
+    .carname {
+        width: 50%;
+    }
+
+    .prices {
+        width: 50%;
+    }
+
+    .comparepricecar {
+        display: none;
+        width: 0;
+    }
+
+    .prices h3 {
+        float: right;
+    }
+
+    /* car brochur section */
+
+    .brochure-btn {
+        padding: 3px 0px 7px;
+    }
+
+    .brochure-head h2 {
+        font-size: 9px;
+        color: #484848;
+    }
+
+    .brochure-svg img {
+        width: 25px;
+    }
+
+    .brochure-btn a {
+        color: #fff;
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .download-brochure {
+        padding: 21px 5px;
+    }
+
+    .speciality p {
+        font-size: 13px;
+        color: #706d6d;
+        margin-right: 9px;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+
+    }
+    .carrating p a {
+        text-decoration: none;
+        color: #0288d1;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 15px 4px;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;    
+    }
+    .cardetailprice h3 {
+        color: #484848;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .caroffer-btn {
+        border-radius: 4px;
+        border: 1px solid #00afa0;
+        padding: 11px;
+        width: 309px;
+        margin: 24px 2px;
+    }
+}
+
+
+
+/* end media query for mobile */
+
+
+
+/* start media query for tablet */
+
+@media(min-width:720px) {
+
+
+    .cardetail-con {
+        max-width: 1008px;
+        margin: auto;
+    }
+
+    /* cars heading details style */
+
+    .addimg1 {
+        margin: 83px 8px 32px
+    }
+    .addimg2 img {
+        height: auto;
+        width: 185px;
+        margin: 20px;
+    }
+    .addimg3 img{
+        width: 100%;
+    }
+    .carrating {
+        display: flex;
+    }
+    .carrating p {
+        margin-top: 7px;
+        margin-right: 12px;
+    }
+
+    .cardetail-sec h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: #484848;
+    }
+
+    /* car detail image and price detail */
+
+    .cardetail-col {
+        width: 50%;
+    }
+
+    .cardetail-col1 {
+        width: 50%;
+        padding: 22px;
+    }
+
+    .cardetail-row1 {
+        border: 1px solid #e1e1e1;
+        margin: 30px 0 30px 0;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .cardetail-prices h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #484848;
+    }
+
+    .cardetail-sec a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #0288d1;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 3px;
+    }
+
+    .off-btn span {
+        background-color: #e53012;
+        color: #fff;
+        padding: 10px 88px;
+        margin: 14px;
+        font-weight: 700;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .off-btn {
+        margin: 38px 0 29px 0;
+    }
+
+    /* second row */
+
+    .cardetail-row2 {
+        display: flex;
+
+    }
+
+    .cardetails-col1 {
+        width: 70%;
+    }
+
+    .cardetails-col2 {
+        width: 30%;
+    }
+
+    /* car specification section */
+
+    .speciality {
+        border: 1px solid #e1e1e1;
+        padding: 18px 38px 18px 9px;
+        background-color: #f7f6f6;
+        width: 33.3%;
+        height: 80px;
+        line-height: 1.7;
+    }
+
+    /* car summary section */
+
+    .car-summary div {
+        border: 1px solid #e1e1e1;
+        height: 143px;
+        padding: 25px;
+        line-height: 1.7;
+        border-radius: 5px;
+    }
+
+    /* car variants section */
+
+
+    .price-ul li {
+        padding: 12px 38px;
+    }
+
+    .variant-head3 {
+        display: block;
+    }
+
+    .carname {
+        width: 36%;
+    }
+
+    .prices {
+        width: 26%;
+    }
+
+    .comparepricecar {
+        width: 38%;
+        display: block;
+    }
+
+    .prices h3 {
+        float: none;
+    }
+
+    /* car brochur section */
+
+    .brochure-btn {
+        padding: 12px 23px;
+    }
+
+    .brochure-head h2 {
+        font-size: 17px;
+        color: #484848;
+    }
+
+    .brochure-svg img {
+        width: 39px;
+    }
+
+    .brochure-btn a {
+        color: #fff;
+        font-weight: 800;
+        font-size: 13px;
+    }
+
+    .download-brochure {
+        padding: 38px 12px;
+    }
+
+    .speciality p {
+        font-size: 13px;
+        color: #706d6d;
+        margin-right: 9px;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+
+    }
+    .carrating p a {
+        text-decoration: none;
+        color: #0288d1;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+    }
+    .cardetailprice h3 {
+        color: #484848;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .caroffer-btn {
+        border-radius: 4px;
+        border: 1px solid #00afa0;
+        padding: 11px;
+        width: 345px;
+        margin: 24px 0;
+    }
+}
+
+
+/* end media query for tablet */
+
+
+
+/* start media query for labtob */
+
+@media(min-width:1000px) {
+
+
+    .cardetail-con {
+        max-width: 1008px;
+        margin: auto;
+    }
+
+    /* cars heading details style */
+
+    .addimg1 {
+        margin: 83px 8px 32px
+    }
+    .addimg2 img {
+        height: auto;
+        width: 278px;
+        margin: 20px;
+    }
+    .addimg3 img{
+        width: 287px;
+    }
+
+    .carrating {
+        display: flex;
+    }
+    .carrating p {
+        margin-top: 7px;
+        margin-right: 12px;
+    }
+    .cardetail-sec h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: #484848;
+    }
+
+    /* car detail image and price detail */
+
+    .cardetail-col {
+        width: 50%;
+    }
+
+    .cardetail-col1 {
+        width: 50%;
+        padding: 22px;
+    }
+
+    .cardetail-row1 {
+        border: 1px solid #e1e1e1;
+        margin: 30px 0 30px 0;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .cardetail-prices h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #484848;
+    }
+
+    .cardetail-sec a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #0288d1;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 9px;
+    }
+
+    .off-btn span {
+        background-color: #e53012;
+        color: #fff;
+        padding: 10px 88px;
+        margin: 14px;
+        font-weight: 700;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .off-btn {
+        margin: 46px 0 0 0;
+    }
+
+    /* second row here */
+
+    .cardetail-row2 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .cardetails-col1 {
+        width: 70%;
+    }
+
+    .cardetails-col2 {
+        width: 30%;
+    }
+
+    /* car specification section */
+
+    .speciality {
+        border: 1px solid #e1e1e1;
+        padding: 18px 38px 18px 9px;
+        background-color: #f7f6f6;
+        width: 33.3%;
+        height: 80px;
+        line-height: 1.7;
+    }
+
+    /* car summary section */
+
+    .car-summary div {
+        border: 1px solid #e1e1e1;
+        height: 143px;
+        padding: 25px;
+        line-height: 1.7;
+        border-radius: 5px;
+    }
+
+    /* car variants section */
+
+
+    .price-ul li {
+        padding: 12px 38px;
+    }
+
+    .variant-head3 {
+        display: block;
+    }
+
+    .carname {
+        width: 36%;
+    }
+
+    .prices {
+        width: 26%;
+    }
+
+    .comparepricecar {
+        width: 38%;
+        display: block;
+    }
+
+    .prices h3 {
+        float: none;
+    }
+
+    /* car brochur section */
+
+    .brochure-btn {
+        padding: 12px 23px;
+    }
+
+    .brochure-head h2 {
+        font-size: 23px;
+        color: #484848;
+    }
+
+    .brochure-svg img {
+        width: 59px;
+    }
+
+    .brochure-btn a {
+        color: #fff;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .download-brochure {
+        padding: 38px 12px;
+    }
+
+    .speciality p {
+        font-size: 15px;
+        color: #706d6d;
+        margin-right: 9px;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+
+    }
+    .carrating p a {
+        text-decoration: none;
+        color: #0288d1;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+    }
+    .cardetailprice h3 {
+        color: #484848;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .caroffer-btn {
+        border-radius: 4px;
+        border: 1px solid #00afa0;
+        padding: 11px;
+        width: 345px;
+        margin: 24px 0;
+    }
+}
+
+
+
+/* end media query for labtop */
+
+
+/* start of car heading styles  */
+
+
+
+.cardetail-sec {
+    margin: 60px 0 0 0;
+}
+
+.carrating span svg {
+    font-size: 20px;
+    color: #00afa0;
+    ;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+
+
+
+
+/* end of car heading styles */
+
+
+
+/* start of car images and variant selected sec here */
+
+.cardetail-img img {
+    width: 100%;
+}
+
+.cardetail-imgicon {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.cardetail-imgicon span svg {
+    font-size: 26px;
+    margin-right: 7px;
+}
+
+.cardetail-imgicon p {
+    margin-right: 39px;
+    font-size: 13px;
+    color: #6f6f6f;
+}
+
+.cardetail-selectbox {
+    display: flex;
+}
+
+.selectbox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    height: 71px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.selectbox span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6f6f6f;
+}
+
+.selectbox p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #484848;
+}
+
+.selectbox svg {
+    font-size: 21px;
+    color: #6f6f6f;
+}
+
+.cardetail-prices {
+    margin: 14px;
+}
+
+.cardetail-prices span {
+    font-style: italic;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.cardetail-prices p {
+    font-size: 15px;
+    color: #706d6d;
+}
+
+.cardetail-prices {
+    line-height: 1.5;
+}
+
+.cardetail-emioff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 14px;
+    background-color: #f4ededcc;
+    padding: 12px;
+}
+
+.cardetail-emioff .emioff p {
+    font-size: 14px;
+}
+
+.cardetail-emioff .emioff span {
+    color: #0288d1;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.emi-btn {
+    font-size: 12px;
+    border: 1px solid #00afa0;
+    padding: 6px 19px;
+    color: #00afa0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+
+/* upcoming car styles */
+
+
+.cardetailprice {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+
+
+.cardetailprice p {
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.carlaunch {
+    background-color: #f9f9f9;
+    display: flex;
+    gap: 3%;
+    padding: 14px;
+    margin: 17px 0;
+}
+
+.carlaunch h3 {
+    font-size: 16px;
+    color: #484848;
+    font-weight: 700;
+}
+
+.carlaunch p {
+    color: #aaa;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.confidence p {
+    color: #484848;
+    font-size: 13px;
+}
+
+.confidence p span {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+.caroffer-btn p {
+    color: #00afa0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.carnames {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px;
+}
+
+
+
+
+/* end of car images and variant selected sec here */
+
+
+
+/* second row */
+
+
+.cardetails-col1 h1 {
+    margin: 20px 0;
+}
+
+/* car specification styles here */
+
+.car-specification {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speciality h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.speciality svg {
+    margin-right: 9px;
+    font-size: 16px;
+}
+
+/* car summary styles here */
+
+
+.car-summary {
+    margin: 40px 0;
+}
+
+.car-summary p {
+    color: #706d6d;
+}
+
+.car-summary div {
+    background-color: #f7f6f6;
+}
+
+.car-summary div a {
+    float: right;
+}
+
+.car-summary h4 {
+    font-weight: 500;
+}
+
+.car-price {
+    margin: 40px 0;
+}
+
+.car-price h1 {
+    margin: 30px 0;
+}
+
+.pricepara {
+    color: #6f6f6f;
+    font-size: 15px;
+    font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+    line-height: 1.51;
+}
+
+.filterpara {
+    margin: 26px 0;
+    font-size: 16px;
+    color: #6f6f6f;
+    font-weight: 700;
+}
+
+.price-ul {
+    display: flex;
+    align-items: center;
+}
+
+.price-ul li {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0 17px 0 0;
+    font-weight: 600;
+    font-size: 11px;
+    color: #6f6f6f;
+}
+
+.pricehead {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin: 30px 0;
+    background-color: #f9f9f9;
+}
+
+.pricehead hr {
+    border: 1px solid #e1e1e1;
+    width: 93%;
+    margin-left: 27px;
+}
+
+.pricehead ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricehead ul li {
+    padding: 12px 10px;
+    color: #aaa;
+    margin: 0 16px;
+}
+
+.pricedetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 12px;
+}
+
+.carname {
+    margin: 4px 12px
+}
+
+.pricedetail p {
+    color: #6f6f6f;
+    font-size: 14px;
+    line-height: 2
+}
+
+.pricedetail div {
+    color: #484848;
+    font-weight: 400;
+    font-size: 16px;
+    float: right;
+}
+
+
+.prices h3 {
+    color: #484848;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.comparepricecar span {
+    color: #6f6f6f;
+}
+
+.viewbtn {
+    padding: 12px;
+    text-align: center;
+}
+
+.viewbtn a {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.hr hr {
+    width: 100%;
+    margin-left: 0;
+}
+
+.addtocompare {
+    display: flex;
+    align-items: center;
+}
+
+.addtocompare span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #6f6f6f;
+    border-radius: 3px;
+    margin: 5px 12px;
+}
+
+
+/* start of download brochur styles here */
+
+.download-brochure {
+    border: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    border-radius: 4px;
+}
+
+.brochure-btn {
+    border: 1px solid #e53012;
+    background-color: #e53012;
+}
+
+
+
+
+
+/* end of download brochure styles */
+
+
+
+/* start of cars mileage styles */
+
+.car-mileagesec p {
+    font-size: 15px;
+    color: #6f6f6f;
+    margin: 14px 0px
+}
+
+.car-mileagesec table {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+
+.car-mileagesec table thead th {
+    text-align: start;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #e1e1e1;
+}
+
+.car-mileagesec table tbody tr td {
+    color: #484848;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* end of cars mileage styles */
+
+
+/* start of car img gallery */
+
+.carimg-gallery {
+    display: grid;
+    grid-template-areas: 'carimg1 carimg2 carimg3' 'carimg4 carimg4 carimg5' 'carimg4 carimg4 carimg6';
+    border: 1px solid #e1e1e1;
+    border-radius: 14px;
+    gap: 8px;
+    padding: 26px;
+    margin: 22px 0;
+}
+
+.carimg-gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.carimg1 {
+    grid-area: carimg1;
+}
+
+.carimg2 {
+    grid-area: carimg2;
+}
+
+.carimg3 {
+    grid-area: carimg3;
+}
+
+.carimg4 {
+    grid-area: carimg4;
+}
+
+.carimg5 {
+    grid-area: carimg5;
+}
+
+.carimg6 {
+    grid-area: carimg6;
+}
+
+
+
+/* end of car img gallery */
+
+
+/* start of second colum */
+
+.addimg1 img {
+    width: 100%;
+}
+
+
+
+.getbestdeal {
+    background-color: rgb(191, 235, 235);
+    padding: 53px 12px 20px;
+    border-radius: 6px;
+    position: relative;
+    margin: 17px 15px;
+}
+
+.getbestdeal-offer {
+    background-color: #fff;
+    padding: 51px 7px 16px;
+}
+
+.bestdeal-img img {
+    width: 38px;
+}
+
+.bestdeal-img {
+    border: 1px solid rgb(191, 235, 235);
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 29px;
+    padding: 3px 5px;
+}
+
+.bestdeal-para {
+    color: #6f6f6f;
+    font-size: 14px;
+    margin-bottom: 15px
+}
+
+.getbestdeal-offer span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.getbestdeal-offer span p {
+    color: #b5b5b5;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.getbestdeal-btn {
+    margin: 14px 0;
+}
+
+.getbestdeal-btn a {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+/* prices in india */
+
+.prices-india table {
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.prices-india table th,
+tr {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.prices-india table tbody tr td,
+thead th {
+    width: auto;
+    color: #484848;
+    font-size: 14px;
+}
+
+.prices-india table thead th {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 13px 21px;
+    color: #b5b5b5;
+    text-align: start;
+}
+
+.prices-india table td,
+th {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.prices-india {
+    margin: 58px 12px;
+}
+
+.prices-india h1 {
+    margin: 21px 0;
+    font-size: 21px;
+}
+
+/* adveritshment image */
+
+.addimg3 {
+    margin: 26px 13px;
+}
+
+
+/* buyers tools styles */
+
+
+.buyer-img img {
+    width: 50px;
+}
+
+.carbuyer-tool {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin: 9px;
+}
+
+.buyertools {
+    display: flex;
+    padding: 19px 12px;
+    gap: 4%;
+}
+
+.buyertools h4 {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buyertools {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.buyertools p {
+    color: #6f6f6f;
+    font-size: 15px;
+}
+
+/* end of second colum */

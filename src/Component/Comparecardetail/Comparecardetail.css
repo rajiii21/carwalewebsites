@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px) {
+    .comparecardetail-sec {
+        margin: 83px 10px 0 10px;
+    }
+
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 37px;
+    }
+
+    .compare-con {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Vs-icon {
+        background-color: #fff;
+        border: 1px solid black;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 78px;
+        right: 133px;
+    }
+
+    .compare-col1 img {
+        width: 100%;
+    }
+
+    /* popup box */
+
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        transform: translate(0%, 4%);
+    }
+
+    .popup-cars input {
+        width: 383px;
+        padding: 11px 30px;
+        margin-left: 25px;
+        border: 1px solid #efefef;
+    }
+
+    .comparecardetail-feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+
+    .comparecardetail-title h1 {
+        font-size: 16px;
+        color: #484848;
+    }
+
+    .heading-details p {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .comparecardetail-title p {
+        font-size: 16px;
+        color: #484848;
+    }
+
+    .comparecardetail-row h4 {
+        font-size: 12px;
+        color: #484848;
+    }
+
+    .comparecardetail-row a {
+        text-decoration: none;
+        font-size: 11px;
+        color: #0288d1;
+    }
+
+    .comparecardetail-row .heading-details {
+        border-bottom: 1px solid #efefef;
+        padding: 9.7px 5px;
+        height: 117px;
+    }
+
+    .comparecardetail-row .cardetail-head {
+        border-bottom: 1px solid #efefef;
+        padding: 13px 0;
+        height: 117px;
+      
+    }
+}
+
+/* media query for mobile */
+
+@media(min-width:720px) {
+    .comparecardetail-sec {
+        margin: 83px 10px 0 10px;
+    }
+
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 100px;
+    }
+
+    .compare-con {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Vs-icon {
+        border: 1px solid black;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 125px;
+        right: 364px;
+    }
+
+    .compare-col button {
+        padding: 8px;
+    }
+
+    /* popup box */
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        height: 424px;
+        max-width: 600px;
+        transform: translate(-1%, 10%);
+    }
+
+    .popup-cars input {
+        width: 540px;
+        padding: 11px 30px;
+        margin-left: 25px;
+    }
+
+    .compare-col1 img {
+        width: 100%;
+    }
+
+    .comparecardetail-feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: unset;
+    }
+
+    .comparecardetail-title h1 {
+        font-size: 26px;
+        color: #484848;
+    }
+
+    .heading-details p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .comparecardetail-title p {
+        font-size: 26px;
+        color: #484848;
+
+    }
+
+    .comparecardetail-row h4 {
+        font-size: 13px;
+        color: #484848;
+    }
+
+    .comparecardetail-row a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #0288d1;
+    }
+
+    .comparecardetail-row .heading-details {
+        border-bottom: 1px solid #efefef;
+        padding: 21.7px 10px;
+        height: 101px;
+    }
+
+    .comparecardetail-row .cardetail-head {
+        border-bottom: 1px solid #efefef;
+        padding: 13px;
+        height: 101px;
+    }
+}
+
+
+/* media query for mobile */
+
+@media(min-width:1000px) {
+    .comparecardetail-sec {
+        margin: 83px 0 0 0;
+    }
+
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 100px;
+    }
+
+    .compare-con {
+        max-width: 1008px;
+        margin: auto;
+    }
+
+    .Vs-icon {
+        border: 1px solid #e1e1e1;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 125px;
+        right: 487px;
+        background-color: #fff;
+    }
+
+    .compare-col button {
+        padding: 10px;
+    }
+
+    .compare-col1 img {
+        width: auto;
+    }
+
+    .comparecardetail-title h1 {
+        font-size: 26px;
+        color: #484848;
+    }
+
+    /* popup box  */
+
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        transform: translate(-1%, 10%);
+    }
+
+    .popup-cars input {
+        width: 540px;
+        padding: 11px 30px;
+        margin-left: 25px;
+    }
+
+    .comparecardetail-feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: unset;
+    }
+
+    .heading-details p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .comparecardetail-title p {
+        font-size: 26px;
+        color: #484848;
+    }
+
+    .comparecardetail-row h4 {
+        font-size: 13px;
+        color: #484848;
+    }
+
+    .comparecardetail-row a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #0288d1;
+    }
+
+    .comparecardetail-row .heading-details {
+        border-bottom: 1px solid #efefef;
+        padding: 21.7px 10px;
+        height: 59px;
+    }
+
+    .comparecardetail-row .cardetail-head {
+        border-bottom: 1px solid #efefef;
+        padding: 13px;
+        height: 59px;
+    }
+}
+
+/* .comparecardetail-con{
+    width: 1008px;
+    margin: auto;
+} */
+
+.comparecardetail-con {
+    max-width: 1008px;
+    margin: auto;
+}
+
+.comparecardetail-title {
+    display: flex;
+    gap: 2%;
+}
+
+.title-para p {
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 1.51;
+}
+
+.comparecardetail-feature ul {
+    display: flex;
+}
+
+.comparecardetail-feature ul li {
+    list-style-type: none;
+    color: #6f6f6f;
+    font-size: 12px;
+    font-weight: 700;
+    margin: -4px 35px 0 0;
+}
+
+.comparecardetail-feature input {
+    padding: 6px 20px;
+}
+
+.comparecardetail-row {
+    border: 1px solid #efefef;
+    margin: 17px 0;
+}
+
+.comparecardetails {
+    width: 33.3%;
+    border-right: 1px solid #efefef;
+}
+
+.comparedetail-col {
+    display: flex;
+}
+
+.comparecardetail-col .cardetail-head {
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+}
+
+.comparecardetail-row table {
+    border: 1px solid #efefef;
+    border-collapse: collapse;
+    margin: 16px 0 30px 0;
+}
+
+.main-heading,
+.sub-heading1,
+.sub-heading2,
+.sub-heading3,
+.sub-heading4 p {
+    color: #484848;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main-heading,
+.sub-heading1,
+.sub-heading2,
+.sub-heading3,
+.sub-heading4 {
+    border-bottom: 1px solid #efefef;
+    padding: 17px;
+}
+
+.main-heading {
+    background-color: #b5b5b533;
+}

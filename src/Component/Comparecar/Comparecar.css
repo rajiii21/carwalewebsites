@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* media query for mobile */
+
+@media(min-width:320px) {
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 37px;
+    }
+
+    .compare-con {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Vsicon {
+        border: 1px solid black;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 66px;
+        right: 149px;
+        background-color: #fff;
+    }
+
+    .compare-col1 img {
+        width: 100%;
+    }
+
+    /* popup box */
+
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        transform: translate(0%, 4%);
+    }
+
+    .popup-cars input {
+        width: 383px;
+        padding: 11px 30px;
+        margin-left: 25px;
+        border: 1px solid #efefef;
+    }
+
+    .compare-col1 h2 {
+        font-size: 15px;
+        color: #0288d1;
+        margin: 0 22px;
+    }
+
+    .compare-col1 h3 {
+        font-size: 14px;
+        color: #484848;
+        margin: 0 22px;
+    }
+
+    .compare-col1 p {
+        font-size: 14px;
+        color: #6f6f6f;
+        margin: 0 22px;
+    }
+    .popup {
+        position: fixed;
+        top: 27px;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    
+}
+
+/* media query for mobile */
+
+@media(min-width:720px) {
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 100px;
+    }
+
+    .compare-con {
+        width: 90%;
+        margin: auto;
+    }
+
+    .Vsicon {
+        border: 1px solid black;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 113px;
+        right: 310px;
+        background-color: #fff;
+    }
+
+    .compare-col button {
+        padding: 8px;
+    }
+
+    /* popup box */
+
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        height: 425px;
+        max-width: 600px;
+        transform: translate(-1%, 10%);
+        transition: 2s ease;
+    }
+
+    .popup-cars input {
+        width: 540px;
+        padding: 11px 30px;
+        margin-left: 25px;
+    }
+
+    .compare-col1 img {
+        width: auto;
+        width: 100%;
+    }
+
+    .compare-col1 h2 {
+        font-size: 18px;
+        color: #0288d1;
+        margin: 0 22px;
+    }
+
+    .compare-col1 h3 {
+        font-size: 16px;
+        color: #484848;
+        margin: 0 22px;
+    }
+
+    .compare-col1 p {
+        font-size: 15px;
+        color: #6f6f6f;
+        margin: 0 22px;
+    }
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    
+}
+
+
+/* media query for labtop */
+
+@media(min-width:1000px) {
+    .compare-row {
+        display: flex;
+        margin: 30px 0;
+        position: relative;
+    }
+
+    .compare-col {
+        width: 50%;
+        border: 1px solid #e1e1e1;
+        padding: 100px;
+    }
+
+    .compare-con {
+        max-width: 1008px;
+        margin: auto;
+    }
+
+    .Vsicon {
+        border: 1px solid #e1e1e1;
+        color: #e53012;
+        padding: 7px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: 125px;
+        right: 487px;
+        background-color: #fff;
+    }
+
+    .compare-col button {
+        padding: 10px;
+    }
+
+    .compare-col1 img {
+        width: auto;
+    }
+
+    /* popup box  */
+
+    .popupdetails {
+        background-color: #fff;
+        width: 100%;
+        max-width: 600px;
+        transform: translate(-1%, 10%);
+        height: 424px;
+    }
+
+    .popup-cars input {
+        width: 540px;
+        padding: 11px 30px;
+        margin-left: 25px;
+    }
+
+    .compare-col1 h2 {
+        font-size: 18px;
+        color: #0288d1;
+        margin: 0 22px;
+    }
+
+    .compare-col1 h3 {
+        font-size: 16px;
+        color: #484848;
+        margin: 0 22px;
+    }
+
+    .compare-col1 p {
+        font-size: 15px;
+        color: #6f6f6f;
+        margin: 0 22px;
+    }
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    
+
+}
+
+.compare-sec {
+    margin: 20px 0;
+}
+
+.compare-col img {
+    width: 63px;
+    height: 63px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.compare-btn button {
+    border: none;
+    background-color: #e53012;
+    color: white;
+    width: 44%;
+    border-radius: 4px;
+    height: 45px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.compare-col {
+    text-align: center;
+}
+
+.compare-col button {
+    border: none;
+    color: darkcyan;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* accorddian section */
+
+.compare-col1 {
+    width: 50%;
+    border: 1px solid #e1e1e1;
+    font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+    line-height: 1.6;
+    position: relative;
+    height: auto;
+}
+
+.compare-col1 svg {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+
+
+.popup-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.compare-col1 button {
+    border: none;
+    color: darkcyan;
+    text-align: center;
+    background-color: #fff;
+}
+
+.popup-title h1 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.popup-title svg {
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.popup-cars {
+    position: relative;
+}
+
+.searchicon {
+    position: absolute;
+    top: 87px;
+    left: 35px;
+}
+
+.comparebrands {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.compareimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 20px;
+}
+
+.compareimg img {
+    width: 45px;
+}
+
+.compareimg p {
+    margin-left: 8px;
+}
+
+.showbrands {
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 289px;
+}
+
+.brand-accordian {
+    border: 1px solid #e1e1e1;
+    padding: 12px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.brand-accordian p {
+    margin: 0 56px;
+}

@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.filterprice-con{
+    max-width: 1008px;
+    margin: auto;
+}
+
+/* media query for small device */
+
+@media (min-width:320px) {
+    .filterprice-col{
+        width: 100%;
+    }
+    .filterprice-img img {
+        width: 100%;
+    }
+    .filterprice-img {
+        margin:auto;
+    }
+    .filterprice-detail{
+        line-height: 1.7;
+        width: 100%;
+        margin: 18px 39px 14px;
+    }
+    .filter-title {
+        margin: 76px 12px 18px 12px;
+    }
+    .totalcar {
+        margin: 31px 0px 0 12px;
+    }
+    .filterprice-col{
+        margin: 10px 10px 0 10px;
+    }
+}
+
+
+/* media query for medium device */
+
+
+@media (min-width:720px) {
+    .filterprice-col{
+        width: 48%;
+    }
+    .filterprice-img img {
+        width: 100%;
+    }
+    .filterprice-img {
+        margin:auto;
+    }
+    .filterprice-detail{
+        line-height: 1.7;
+        width: 100%;
+        margin: 18px 39px 14px;
+    }
+    .filter-title{
+        margin: 76px 0 0 8px;
+    }
+    .totalcar{
+        margin:33px 0 0 7px;
+    }
+    .filterprice-col{
+        margin: 10px 10px 0 0px;
+    }
+}
+
+
+/* media query for large device */
+
+
+@media (min-width:1000px) {
+    .filterprice-col{
+        width: 49%;
+    }
+    .filterprice-img img {
+        width: 255px;
+    }
+    .filterprice-img {
+        margin:auto;
+    }
+    .filterprice-detail{
+        line-height: 1.7;
+        width: 40%;
+        margin: 18px 39px 14px;
+    }
+    .filter-title{
+        margin: 76px 0 0 0;
+    }
+    .totalcar{
+        margin:12px 0 0 0
+    }
+    .filterprice-col{
+        margin: 10px 10px 0 0;
+    }
+}
+
+
+
+.filterprice-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 30px 0;
+}
+.filterprice-col{
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding:3px 0;
+}
+.filterprice-card{
+    height: 100%;
+    display: flex;
+}
+.filterprice-detail h1 {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filterprice-detail h1 svg{
+    font-size: 12px;
+    margin: -2px 0px;
+}
+.filterprice-detail p {
+    color: #6f6f6f;
+    font-size: 13px;
+}
+
+.filterprice-detail button {
+    color: #0288d1;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.filter-title p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 20px 0 0 0;
+    text-align: unset
+}
+
+.filter-title a{
+    text-decoration: none;
+    color: #0288d1;
+    font-size: 13px;
+    float: right;
+}

@@ -1,0 +1,179 @@
+/* start of footer section */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start of media query for mobile */
+
+@media(min-width:320px){
+    .footer-img ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-img ul li{
+        list-style-type: none;
+        width: 50%;
+        margin: 0px 0 23px;
+        padding: 0 13px;
+    }
+    .footer-img img{
+        filter: contrast(0);
+        width: 130px;
+        fill:rgba(255,255,255,0.5);
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        color: hsla(0,0%,100%,.5);
+    }
+    .footer-sec ul{
+        padding:14px 0;
+    }
+}
+
+/* end of media query for mobile */
+
+
+/* start of media query for tablet */
+
+@media(min-width:720px){
+    .footer-img ul{
+        display: flex;
+        flex-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-img ul li{
+        list-style-type: none;
+        width: 20%;
+        margin: auto;
+        padding: 0%;
+    }
+    .footer-img img{
+        width: 129px;
+        filter: contrast(0);
+        fill:rgba(255,255,255,0.5);
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+        color: hsla(0,0%,100%,.5);
+    }
+    .footer-sec ul{
+        padding:14px 0;
+    }
+}
+
+/* end of media query for tablet*/
+
+
+/* start of media query for labtop */
+
+@media(min-width:1000px){
+
+    .footer-img ul{
+        display: flex;
+        flex-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-img ul li{
+        list-style-type: none;
+        width: 20%;
+        margin: auto;
+        padding: 0%;
+    }
+    .footer-img img{
+        filter: contrast(0);
+        width: 160px;
+        fill:rgba(255,255,255,0.5);
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap:nowrap;
+        align-items: center;
+        justify-content: center;
+        color: hsla(0,0%,100%,.5);
+    }
+    .footer-sec ul{
+        padding:14px 0;
+    }
+}
+
+/* end of media query for labtop */
+
+
+
+
+.footer-sec{
+    background-color: #002b51;
+}
+.footer-row{
+    color: #808080f0;
+}
+.footer-img ul li a{
+    text-decoration: none;
+    padding: 0 19px 0 0;
+    color: hsla(0,0%,100%,.5);
+}
+.footer-row a{
+    text-decoration: none;
+    color: #808080f0;
+}
+.footer-col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-col img{
+    width: 130px;
+}
+.footer-row ul li{
+    list-style-type: none;
+    padding: 11px 0px;
+
+}
+.footer-col ul li{
+    display: flex;
+    align-items: center;
+}
+.footer-sec ul{
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.footer-col{
+    margin: 20px 61px;
+}
+.footer-col ul{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+}
+.para{
+    margin-top: 15px;
+}
+.social-icon a{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 6px 9px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.social-icon{
+    margin: 27px 0;
+}
+
+
+/* end of footer section */

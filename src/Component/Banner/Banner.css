@@ -1,0 +1,638 @@
+/* start of banner section */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* media query for mobile */
+
+
+@media (min-width:320px) {
+
+    .ban-sec {
+        background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-m-2021.jpg?v=19042022);
+        background-color: rgb(11, 46, 64);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 360px;
+        margin: 52px 0;
+    }
+
+    .inputbox {
+        height: 44px;
+        width: 310px;
+        max-width: 310px;
+        padding-left: 89px;
+        padding-right: 111px;
+    }
+
+    .ban-input {
+        text-align: center;
+        margin-top: 297px;
+    }
+
+    .search-btn {
+        border-radius: 5px;
+        background-color: red;
+        padding: 11px 19px;
+        color: white;
+        border: none;
+        margin-left: -84px;
+    }
+
+    .select-option {
+        cursor: pointer;
+        padding: 13px 9px;
+        background-color: #e1e1e1;
+        border: none;
+        position: absolute;
+        margin-right: 248px;
+    }
+
+    .select-option1 {
+        cursor: pointer;
+        padding: 15px 13px;
+        border: none;
+        background-color: #e1e1e1;
+        position: absolute;
+        margin: 87px 0 0 -248px;
+    }
+
+    .seaicon {
+        font-size: 19px;
+        position: absolute;
+        margin-right: 160px;
+    }
+
+    .new-detail {
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tata {
+        display: block;
+        padding: 0 260px 0 0;
+    }
+
+    .inputbox1 {
+        padding-left: 86px;
+        padding-right: 97px;
+        height: 44px;
+        width: 310px;
+        max-width: 310px;
+    }
+
+    .select-option2 {
+        padding: 15px 28px;
+        border: none;
+        background-color: #e1e1e1;
+    }
+
+    .used-detail {
+        display: none;
+        width: 719px;
+        margin: 0 576px;
+    }
+
+    .amount-detail {
+        display: flex;
+    }
+
+    .amount-detail {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid grey;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 671px;
+        top: 0px;
+        margin: auto;
+        height: 50px;
+        padding: 20px 50px;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head h1 {
+        position: absolute;
+        top: 306px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .search-items {
+        height: 200px;
+        width: 171px;
+        max-width: 171px;
+        overflow: auto;
+        z-index: 1;
+        margin: -1px 0 0 57px;
+    }
+
+}
+
+
+
+@media (min-width:412px) {
+
+    .ban-sec {
+        background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-m-2021.jpg?v=19042022);
+        background-color: rgb(11, 46, 64);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 360px;
+        margin: 52px 0;
+    }
+
+    .inputbox {
+        height: 44px;
+        width: 380px;
+        max-width: 380px;
+        padding-left: 89px;
+        padding-right: 111px;
+    }
+
+    .ban-input {
+        text-align: center;
+        margin-top: 294px;
+    }
+
+    .search-btn {
+        border-radius: 5px;
+        background-color: red;
+        padding: 11px 19px;
+        color: white;
+        border: none;
+        margin-left: -84px;
+    }
+
+    .select-option {
+        cursor: pointer;
+        padding: 13px 9px;
+        background-color: #e1e1e1;
+        border: none;
+        position: absolute;
+        margin-right: 316px;
+    }
+
+    .select-option1 {
+        cursor: pointer;
+        padding: 15px 13px;
+        border: none;
+        background-color: #e1e1e1;
+        position: absolute;
+        margin: 87px 0 0 -317px;
+    }
+
+    .seaicon {
+        font-size: 19px;
+        position: absolute;
+        margin-right: 223px;
+    }
+
+    .new-detail {
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tata {
+        display: block;
+        padding: 0 260px 0 0;
+    }
+
+    .inputbox1 {
+        padding-left: 95px;
+        padding-right: 95px;
+        height: 44px;
+        width: 380px;
+        max-width: 380px;
+    }
+
+    .select-option2 {
+        padding: 15px 28px;
+        border: none;
+        background-color: #e1e1e1;
+    }
+
+    .used-detail {
+        display: none;
+        width: 719px;
+        margin: 0 576px;
+    }
+
+    .amount-detail {
+        display: flex;
+    }
+
+    .amount-detail {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid grey;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 671px;
+        top: 0px;
+        margin: auto;
+        height: 50px;
+        padding: 20px 50px;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head h1 {
+        position: absolute;
+        top: 303px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .search-items {
+        height: 200px;
+        width: 236px;
+        max-width: 236px;
+        overflow: auto;
+        z-index: 1;
+        margin: -1px 0 0 59px;
+    }
+
+}
+
+
+/* media query for tablet*/
+
+
+@media (min-width:720px) {
+
+    .ban-sec {
+        background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-d-2021.jpg?v=19042022);
+        background-color: rgb(11, 46, 64);
+        background-position: center top;
+        height: 400px;
+        margin: 55px 0;
+
+    }
+
+    .inputbox {
+        padding-left: 119px;
+        padding-right: 119px;
+        height: 44px;
+        width: 601px;
+        max-width: 601px;
+    }
+
+    .ban-input {
+        text-align: center;
+        margin-top: 316px;
+    }
+
+    .search-btn {
+        border-radius: 5px;
+        background-color: red;
+        padding: 11px 45px;
+        color: white;
+        border: none;
+        margin-left: -138px;
+    }
+
+    .select-option {
+        cursor: pointer;
+        padding: 13px 20px;
+        background-color: #e1e1e1;
+        border: none;
+        position: absolute;
+        margin-right: 514px;
+    }
+
+    .select-option1 {
+        cursor: pointer;
+        padding: 15px 24px;
+        border: none;
+        background-color: #e1e1e1;
+        position: absolute;
+        margin: 87px 0 0 -515px;
+    }
+
+    .seaicon {
+        font-size: 24px;
+        position: absolute;
+        margin-right: 385px;
+    }
+
+    .new-detail {
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tata {
+        display: block;
+        padding: 0 260px 0 0;
+    }
+
+    .inputbox1 {
+        padding-left: 119px;
+        padding-right: 119px;
+        height: 44px;
+        width: 601px;
+        max-width: 601px;
+    }
+
+    .select-option2 {
+        padding: 15px 28px;
+        border: none;
+        background-color: #e1e1e1;
+    }
+
+    .used-detail {
+        display: none;
+        width: 719px;
+        margin: 0 576px;
+    }
+
+    .amount-detail {
+        display: flex;
+    }
+
+    .amount-detail {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid grey;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 671px;
+        top: 0px;
+        margin: auto;
+        height: 50px;
+        padding: 20px 50px;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head h1 {
+        position: absolute;
+        top: 320px;
+        font-size: 26px;
+        color: white;
+    }
+
+    .search-items {
+        height: 200px;
+        width: 386px;
+        max-width: 386px;
+        overflow: auto;
+        z-index: 1;
+        margin: -1px 0 0 80px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .ban-sec {
+        background-image: url(https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-d-2021.jpg?v=19042022);
+        background-color: rgb(11, 46, 64);
+        background-position: center top;
+        height: 400px;
+        margin: 48px 0;
+
+    }
+
+    .inputbox {
+        padding-left: 119px;
+        padding-right: 119px;
+        height: 44px;
+        width: 601px;
+        max-width: 601px;
+    }
+
+    .ban-input {
+        text-align: center;
+        margin-top: 316px;
+    }
+
+    .search-btn {
+        border-radius: 5px;
+        background-color: red;
+        padding: 11px 45px;
+        color: white;
+        border: none;
+        margin-left: -138px;
+    }
+
+    .select-option {
+        padding: 13px 20px;
+        background-color: #e1e1e1;
+        border: none;
+        position: absolute;
+        margin-right: 514px;
+        cursor: pointer;
+    }
+
+    .select-option1 {
+        padding: 15px 24px;
+        border: none;
+        background-color: #e1e1e1;
+        position: absolute;
+        margin: 89px 516px 0 0;
+        cursor: pointer;
+    }
+
+    .seaicon {
+        font-size: 24px;
+        position: absolute;
+        margin-right: 385px;
+    }
+
+    .new-detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tata {
+        display: block;
+        padding: 0 260px 0 0;
+    }
+
+    .inputbox1 {
+        padding-left: 119px;
+        padding-right: 119px;
+        height: 44px;
+        width: 100%;
+        max-width: 601px;
+    }
+
+    .select-option2 {
+        padding: 15px 28px;
+        border: none;
+        background-color: #e1e1e1;
+    }
+
+    .used-detail {
+        display: flex;
+        width: 628px;
+        margin: 6px 576px;
+    }
+
+    .amount-detail {
+        display: flex;
+    }
+
+    .amount-detail {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid grey;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 671px;
+        top: 0px;
+        margin: auto;
+        height: 50px;
+        padding: 20px 50px;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head h1 {
+        position: absolute;
+        top: 308px;
+        font-size: 26px;
+        color: white;
+    }
+
+    .new-detail a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .search-items {
+        height: 200px;
+        width: 386px;
+        max-width: 386px;
+        margin: -22px 0 0 81px;
+        overflow: auto;
+        z-index: 1;
+    }
+}
+
+
+/* end of media query */
+
+.ban-row{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban-row input {
+    outline: none;
+}
+
+.amount-detail p {
+    color: gray;
+    font-size: 12px;
+}
+
+.new {
+    display: flex;
+}
+
+.used-detail a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.qty-increase {
+    display: flex;
+    position: absolute;
+    top: 113px;
+}
+
+.qty-increase .min-input,
+.max-input {
+    padding: 20px 0;
+    margin: 14px;
+    text-align: center;
+}
+
+.qty-increase button {
+    border: none;
+}
+
+.qty-btns1 {
+    top: 24px;
+    position: absolute;
+    left: 0;
+    right: 56px;
+    display: none;
+}
+
+.qty-btns2 {
+    position: absolute;
+    right: 0;
+    top: 24px;
+    left: 340px;
+    display: none;
+}
+
+.min-box:hover .qty-btns1 {
+    display: block;
+}
+
+.max-box:hover .qty-btns2 {
+    display: block;
+}
+
+.searchitem {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12.4px;
+    border: 1px solid #efefef;
+}
+
+.searchitem svg {
+    font-size: 19px;
+    margin: 0 5px 0 0;
+}
+
+
+
+/* end of banner section */

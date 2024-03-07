@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.comparecars-sec{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0,0,0,0.4);
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comparecars-con{
+    background-color: #fff;
+    width:100%;
+    max-width: 600px;
+    transform: translate(-1%,10%);
+}
+.cartitle{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.cartitle h1{
+    font-size: 19px;
+    font-weight: 500;
+}
+.cartitle svg{
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    width: 25px;
+    height:25px;
+}
+.compare-cars input{
+    width:540px;
+    padding:10px 30px;
+    margin-left:25px;
+}
+.compare-cars{
+    position: relative;
+}
+.searchicon{
+    position:absolute;
+    top: 87px;
+    left: 35px;
+}
+.comparebrands{
+    border-bottom:1px solid #e1e1e1;
+}
+.compareimg{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:11px 20px;
+}
+.compareimg img{
+    width:45px;
+}
+.compareimg p{
+    margin-left:8px;
+}
+
+.brand-accordian{
+    border:1px solid #e1e1e1;
+    padding: 12px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.brand-accordian p{
+    margin: 0 56px;
+}
