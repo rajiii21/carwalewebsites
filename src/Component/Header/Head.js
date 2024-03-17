@@ -23,7 +23,7 @@ const Header = () => {
     const nav = useNavigate()
 
     const homepagelogo = () => {
-        nav('/carwalewebsites/')
+        nav('/')
     }
 
 
