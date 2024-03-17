@@ -31,7 +31,7 @@ const Routing=()=>{
               <BrowserRouter>
                   <Header/>
                    <Routes>
-                        <Route path="/" element={<Suspense fallback={<div>loading...</div>}><Home/></Suspense>}></Route>
+                        <Route path="/carwalewebsites/" element={<Suspense fallback={<div>loading...</div>}><Home/></Suspense>}></Route>
                         <Route path="/branddetail/:brand" element={<Suspense fallback={<div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>loading...</div>}><Branddetail/></Suspense>}></Route>
                         <Route path="/filterprice/:btn/:price" element={<Suspense fallback={<div>loading...</div>}><CaramountDetail/></Suspense>}></Route>
                         <Route path="/cardetail/:name" element={<Suspense fallback={<div>loading...</div>}><Cardetail/></Suspense>}/>
