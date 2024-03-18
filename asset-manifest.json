@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/carwalewebsites/static/css/main.f855e6bc.css",
-    "main.js": "/carwalewebsites/static/js/main.78c6cd76.js",
+    "main.js": "/carwalewebsites/static/js/main.d9a87bd0.js",
     "static/css/952.d16cc251.chunk.css": "/carwalewebsites/static/css/952.d16cc251.chunk.css",
     "static/js/952.dbff4c98.chunk.js": "/carwalewebsites/static/js/952.dbff4c98.chunk.js",
     "static/css/76.f9f79e4e.chunk.css": "/carwalewebsites/static/css/76.f9f79e4e.chunk.css",
@@ -35,7 +35,7 @@
     "static/media/slick.woff": "/carwalewebsites/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/carwalewebsites/index.html",
     "main.f855e6bc.css.map": "/carwalewebsites/static/css/main.f855e6bc.css.map",
-    "main.78c6cd76.js.map": "/carwalewebsites/static/js/main.78c6cd76.js.map",
+    "main.d9a87bd0.js.map": "/carwalewebsites/static/js/main.d9a87bd0.js.map",
     "952.d16cc251.chunk.css.map": "/carwalewebsites/static/css/952.d16cc251.chunk.css.map",
     "952.dbff4c98.chunk.js.map": "/carwalewebsites/static/js/952.dbff4c98.chunk.js.map",
     "76.f9f79e4e.chunk.css.map": "/carwalewebsites/static/css/76.f9f79e4e.chunk.css.map",
@@ -65,6 +65,6 @@
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.78c6cd76.js"
+    "static/js/main.d9a87bd0.js"
   ]
 }
